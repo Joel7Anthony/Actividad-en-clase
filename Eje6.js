@@ -1,16 +1,16 @@
-/*Anthony Molina y Johann Garcia */
 
 
 
+var num, total, val;
 // Descuento 
 document.write("Cual es tu tipo a pagar ", '<BR/>');
 document.write("1.- 0 a 100 ", '<BR/>');
 document.write("2.- 100.01 a 250 ", '<BR/>');
 document.write("3.- 250.01 a 800", '<BR/>');
 document.write("4.- 800.01 a mas ", '<BR/>');
-num = Number(prompt());
-document.write("Escribir un tu valor a pagar", '<BR/>');
-val = Number(prompt("Escribir un tu valor a pagar"));
+num = Number(prompt("Cual es tu tipo a pagar"));
+document.write("Escribir el valor a pagar", '<BR/>');
+val = Number(prompt("Escribir el valor a pagar"));
 switch (num) {
 	case "1":
 		if (val <= 100) {

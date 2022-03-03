@@ -1,5 +1,5 @@
 /*Anthony Molina y Johann Garcia */
-function eje1() {
+
     var compra = new Number();
     var descuento = new Number();
     var tipo = new String();
@@ -25,4 +25,4 @@ function eje1() {
     }
     document.write("El total a pagar ya con el descuento aplicado es: $",compra-descuento,'<BR/>');
     document.write("El descuento aplicado es: $",descuento,'<BR/>');
-}   
+  
